@@ -1,12 +1,12 @@
 # TAC
 
-Ce répertoire contient le matériel pour le cours de "Traitement automatique de corpus" ([STIC-B545](https://www.ulb.be/fr/programme/stic-b545)) donné à l'[ULB](https://ulb.be) pour l'année académique 2023-2024.
+Ce répertoire contient le matériel pour le cours de "Traitement automatique de corpus" ([STIC-B545](https://www.ulb.be/fr/programme/stic-b545)) donné à l'[ULB](https://ulb.be).
 
 ## Installation
 
 1. Créez un compte Github et générez un `fork` du répertoire [tac](https://github.com/madewild/tac). Votre version du répertoire se trouvera alors à l'adresse `https://github.com/<YOUR-GITHUB-ID>/tac`
-2. Téléchargez et installez une version récente de [Python](https://www.python.org/downloads/) (>= 3.9)
-    - !! Pour les utilisateurs Windows, au moment de l'installation, cochez la case "Add Python 3.XX to PATH" et préférez installer Python à la racine du disque (C:\Python310) via le custom install.
+2. Téléchargez et installez une version récente de [Python](https://www.python.org/downloads/) (>= 3.11)
+    - !! Pour les utilisateurs Windows, au moment de l'installation, cochez la case "Add Python 3.XX to PATH" et préférez installer Python à la racine du disque (C:\Python311) via le custom install.
     - !! Si votre ordinateur ne supporte pas les versions récentes de Python, vous pouvez utiliser une machine virtuelle Docker. Vous trouverez les instructions [ici](./Installation_Docker.md)
 3. Téléchargez et installez [Git](https://git-scm.com/downloads)
 4. Téléchargez et installez [Visual Studio Code](https://code.visualstudio.com/)
@@ -17,9 +17,11 @@ Ce répertoire contient le matériel pour le cours de "Traitement automatique de
         - Durant l'installation, sélectionnez `C++ Build Tools` → `Install`.
         - Redémarrez votre machine.
     - Sur MacOS, ouvrez un terminal et tapez la commande suivante:
+
         ```bash
         xcode-select --install
         ```
+
     - Sur Linux, installez `gcc` via votre gestionnaire de packets
 6. Dans Visual Studio Code, ouvrez un terminal (`Terminal > New Terminal`) et déplacez-vous dans le dossier qui contiendra les documents du cours (utilisez la commande `cd`)
 7. Exécutez les commandes suivantes **une ligne à la fois**:
